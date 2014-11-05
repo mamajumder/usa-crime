@@ -11,3 +11,5 @@ shiny::runGitHub('usa-crime', 'mamajumder')
 ```
 
 Before running this make sure packages `ggplot2`, `dplyr`, `scales` and `ggmap` are already installed. The `ggmap` package is used to obtain the statewise map data.
+
+The application is deployed on RStudio. You can view the application [here](https://mahbub.shinyapps.io/usa-crime/)
