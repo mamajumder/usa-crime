@@ -13,7 +13,7 @@ shinyUI(fluidPage(
   
   ###################### 2nd row starts here. 2 columns 
   fluidRow(
-    column(4,
+    column(5,
            wellPanel(
              selectInput("selectedCrime", 
                          label = "Choose a crime to display",
@@ -24,7 +24,11 @@ shinyUI(fluidPage(
                          "Crime Year",
                          min = 1969,
                          max = 2005,
-                         value = 1980)
+                         value = 1980),
+             "This is a project created to demonstrate how shiny application 
+              can be used for exploratory data analysis. For more information 
+              about this project please visit github repository 
+              https://github.com/mamajumder/usa-crime"
            )
     ),
     column(6, 
@@ -34,8 +38,8 @@ shinyUI(fluidPage(
   
   ###################### 3rd row starts here. 2 columns
   fluidRow(
-    column(4, 
-           plotOutput("myPlot",height = "900px",width="300px")
+    column(5, 
+           plotOutput("myPlot",height = "900px",width="350px")
     ),
     column(6, 
            plotOutput("myCrime",height = "400px", width="550px")
