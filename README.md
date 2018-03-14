@@ -14,4 +14,4 @@ Before running this make sure packages `ggplot2`, `dplyr`, `scales` and `ggmap` 
 
 The application is deployed on `RStudio` as well. You can view the application [here](https://mahbub.shinyapps.io/usa-crime/).
 
-The purpose of this project is to demonstrate how shiny application can be used for exploratory data analysis. It was described in one of the classes taught in the course [Introduction to Data Science](http://www.unomaha.edu/mahbubulmajumder/data-science/fall-2014/index.html). 
+The purpose of this project is to demonstrate how shiny application can be used for exploratory data analysis. It was described in one of the classes taught in the course [Introduction to Data Science](http://mamajumder.github.io/data-science/fall-2014/index.html). 
